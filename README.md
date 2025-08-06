@@ -26,10 +26,12 @@ A simple, interactive command-line Blackjack game written in Rust built to learn
 │   ├── main.rs       
 │   ├── lib.rs
 │   └── implementations
+│       ├── action.rs  # Choosing an action
 │       ├── deck.rs    # Card, Suit and Deck (shuffle) logic
-│       ├── hand.rs    # Hand draw & total-value calculation
-│       ├── player.rs  # Player state, betting & payouts
 │       ├── game.rs    # Round flow: deal, player turns, dealer turn, settling scores
+│       ├── hand.rs    # Hand draw & total-value calculation
+│       ├── mod.rs 
+│       ├── player.rs  # Player state, betting & payouts
 └── README.md
 ```
 
